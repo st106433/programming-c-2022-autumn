@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main(int argc, char* argv[])
+{
+	int v;
+	int t;
+
+	std::cin >> v;
+	std::cin >> t;
+
+	std::cout << (109 + (v * t) % 109) % 109 << std::endl;
+
+	return EXIT_SUCCESS;
+}
