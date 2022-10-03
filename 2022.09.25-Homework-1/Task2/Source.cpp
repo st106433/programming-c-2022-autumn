@@ -2,13 +2,13 @@
 
 int main(int argc, char* argv[])
 {
-	int N;
-	int K;
+	int n;
+	int k;
 
-	std::cin >> N;
-	std::cin >> K;
+	std::cin >> n;
+	std::cin >> k;
 
-	std::cout << K / N << std::endl;
+	std::cout << k / n << std::endl;
 
 	return EXIT_SUCCESS;
 }
