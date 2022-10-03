@@ -2,12 +2,12 @@
 
 int main(int argc, char* argv[])
 {
-	int h1;
-	int m1;
-	int s1;
-	int h2;
-	int m2;
-	int s2;
+	int h1 = 0;
+	int m1 = 0;
+	int s1 = 0;
+	int h2 = 0;
+	int m2 = 0;
+	int s2 = 0;
 
 	std::cin >> h1;
 	std::cin >> m1;

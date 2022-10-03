@@ -2,7 +2,7 @@
 
 int main(int argc, char* argv[])
 {
-	int n;
+	int n = 0;
 
 	std::cin >> n;
 

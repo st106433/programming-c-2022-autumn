@@ -2,8 +2,8 @@
 
 int main(int argc, char* argv[])
 {
-	int x;
-	int q;
+	int x = 0;
+	int q = 0;
 
 	std::cin >> x;
 
