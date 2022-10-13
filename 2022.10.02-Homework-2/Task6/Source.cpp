@@ -20,6 +20,14 @@ int main(int argc, char* argv[])
 	{
 		std::cout << "YES";
 	}
+	else if (x2 = x1)
+	{
+		std::cout << "YES";
+	}
+	else if (y1 = y2)
+	{
+		std::cout << "YES";
+	}
 	else
 	{
 		std::cout << "NO";

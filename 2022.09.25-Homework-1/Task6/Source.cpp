@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 
 	std::cin >> n;
 
-	std::cout << n + 2 - (abs(n) % 2) << std::endl;
+	std::cout << n + 2 - ((2 + (n % 2)) % 2) << std::endl;
 
 	return EXIT_SUCCESS;
 }
