@@ -25,9 +25,20 @@ int main(int argc, char* argv[])
 
 	for (int i = 0; i <= n - 1; ++i)
 	{
-		for (int j = m - 1; j >= 0; --j)
+		for (int j = 0; j <= (m - 1) / 2; ++j)
 		{
-			printf("%d ", a[i][j]);
+			int c = 0;
+			c = a[i][j];
+			a[i][j] = a[i][m - 1 - j];
+			a[i][m - 1 - j] = c;
+		}
+	}
+
+	for (int i = 0; i <= n - 1; ++i)
+	{
+		for (int j = 0; j <= m - 1; ++j)
+		{
+			std::cout << a[i][j] << " ";
 		}
 		std::cout << std::endl;
 	}

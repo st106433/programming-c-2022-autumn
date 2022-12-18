@@ -23,9 +23,20 @@ int main(int argc, char* argv[])
 
 	for (int i = 0; i <= n - 1; ++i)
 	{
+		for (int j = 0; j <= i; ++j)
+		{
+			int c = 0;
+			c = a[i][j];
+			a[i][j] = a[j][i];
+			a[j][i] = c;
+		}
+	}
+
+	for (int i = 0; i <= n - 1; ++i)
+	{
 		for (int j = 0; j <= n - 1; ++j)
 		{
-			printf("%d ", a[j][i]);
+			std::cout << a[i][j] << " ";
 		}
 		std::cout << std::endl;
 	}
