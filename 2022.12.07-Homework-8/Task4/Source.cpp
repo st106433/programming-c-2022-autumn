@@ -4,9 +4,9 @@ void hanoi(int n, int a = 1, int b = 2)
 {
 	if (n == 2)
 	{
-		std::cout << "from " << a << " move " << 1 << " to " << 6 - b - a << std::endl;
-		std::cout << "from " << a << " move " << 2 << " to " << b << std::endl;
-		std::cout << "from " << 6 - b - a << " move " << 1 << " to " << b << std::endl;
+		std::cout << "Disk " << 1 << " move from " << a << " to " << 6 - b - a << std::endl;
+		std::cout << "Disk " << a << " move from " << 2 << " to " << b << std::endl;
+		std::cout << "Disk " << 6 - b - a << " move from " << 1 << " to " << b << std::endl;
 	}
 	else
 	{

@@ -3,11 +3,7 @@
 
 void scobk(char* s, int i = 0)
 {
-	if (strlen(s) == 1)
-	{
-		std::cout << "(" << s << ")";
-	}
-	if (strlen(s) == 2)
+	if (strlen(s) == 1 || strlen(s) == 2)
 	{
 		std::cout << "(" << s << ")";
 	}

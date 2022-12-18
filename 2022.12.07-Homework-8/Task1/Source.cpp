@@ -2,23 +2,13 @@
 
 int min(int a, int b, int c, int d)
 {
-	int q = b;
-	int p = d;
-	if (a <= b)
+	if (a <= b && a <= c && a <= d)
 	{
-		q = a;
-	}
-	if (c <= d)
-	{
-		p = c;
-	}
-	if (q <= p)
-	{
-		return q;
+		return a;
 	}
 	else
 	{
-		return p;
+		return min(b, c, d, a);
 	}
 }
 

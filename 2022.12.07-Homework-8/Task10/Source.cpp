@@ -51,5 +51,12 @@ int main(int argc, char* argv[])
 
 	std::cout << del(a, k, k, 1, n);
 
+	for (int i = 0; i <= n - 1; ++i)
+	{
+		delete[] a[i];
+	}
+
+	delete[] a;
+
 	return EXIT_SUCCESS;
 }
