@@ -57,4 +57,6 @@ int main(int argc, char* argv[])
 
 	printAnimal(stul);
 	printAnimal(armclock);
+
+	return EXIT_SUCCESS;
 }
